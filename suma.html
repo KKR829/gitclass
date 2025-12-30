@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="google-translate-customization" content="839d71f7ff6044d0-328a2dc5159d6aa2-gd17de6447c9ba810-f"></meta>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		DataMites Exam Portal 	</title>
+	<meta name="description" content="DataMites Exam Portal"/>
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="/css/mainui/css/bootstrap.min.css"/><script type="text/javascript" src="/js/mainui/js/jquery.min.js"></script><script type="text/javascript" src="/js/mainui/js/popper.min.js"></script><script type="text/javascript" src="/js/mainui/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> 
+   <!--  <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/main.js"></script> -->
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     <!--<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script> -->
+    <script type="text/javascript" src="/js/mainui/js/jquery.validate.js"></script>    <link rel="stylesheet" type="text/css" href="/css/newcss/styles.css"/><script type="text/javascript" src="/js/newjs/main.js"></script><link rel="stylesheet" type="text/css" href="/css/newcss/stylesdash.css"/><link rel="stylesheet" type="text/css" href="/css/newcss/exam-page.css"/><link rel="stylesheet" type="text/css" href="/css/newcss/start-exam.css"/><link rel="stylesheet" type="text/css" href="/css/newcss/list-exams-page.css"/>		<link href="/favicon.png" type="image/png" rel="icon"/><link href="/favicon.png" type="image/png" rel="shortcut icon"/><link rel="stylesheet" type="text/css" href="/css/design200/plugins.css"/><link rel="stylesheet" type="text/css" href="/css/design200/settings.css"/><link rel="stylesheet" type="text/css" href="/css/validationEngine.jquery.css"/><script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script><script type="text/javascript" src="/js/html5shiv.js"></script><script type="text/javascript" src="/js/respond.min.js"></script><script type="text/javascript" src="/js/bootstrap.min.js"></script><script type="text/javascript" src="/js/jquery.validationEngine-en.js"></script><script type="text/javascript" src="/js/jquery.validationEngine.js"></script><script type="text/javascript" src="/js/design200/superfish.js"></script><script type="text/javascript" src="/js/design200/sidebar.js"></script><script type="text/javascript" src="/js/design200/plugins.min.js"></script><script type="text/javascript" src="/js/design200/revolution.min.js"></script><script type="text/javascript" src="/js/custom.min.js"></script><script type="text/javascript" src="/high_charts/js/highcharts.js"></script>		  <!-- altered code #008 -->
+	  <style>
+	  	li:hover,
+li:focus-within {
+	background: #807d7d;
+	cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+	background: #807d7d;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li {
+	clear: both;
+  width: 100%;
+}
+.error-message{
+	color: red;
+    display: contents;
+}
+#navbar-list-4 a:hover{
+ background-color: #eff1f7;
+}
+	  </style>
+	  <!-- altered code #008 -->
+	  <script type="text/JavaScript">
+//courtesy of BoogieJack.com
+function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script>
+</head>
+<body>
+	   <div id="wrap">
+	    <div class="main-inner-content">
+	    	    	    	    <div class="dm-dashboard">
+        <div class="dashboard-left">
+            <header class="header">
+              <nav>
+                    <a href="#" class="logo">
+                        <img src="/img/logo.png" alt="DataMites Exam Portal" class="dashbaord-img"/>                    </a>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <ul class="menu navbar-nav">
+                    <li><a href="/Dashboards" id="dashboard"><i class="fas fa-th-large"></i>&nbsp;Dashboard</a></li>
+                    <li><a href="/Profiles" id="profiles"><i class="far fa-user-circle"></i>&nbsp;My Profile</a></li>
+                    <li><a href="/Results" id="results"><i class="far fa-star"></i>&nbsp;My Result</a></li>
+                    </ul>
+              </nav>
+            </header>
+
+           
+        </div>
+	    
+	    <div class="dashboard-right">
+
+    <div class="user-profile-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   <div class="userprofile">
+                   <nav class="navbar navbar-dark navbar-expand-sm float-right">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbar-list-4">
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color:black;background-color: #eff1f7" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <!-- <img src="student_thumb/4faaa989782337309bbfb981da6fe42f.jpeg" width="40" height="40" class="rounded-circle"> -->
+          <img src="/img/student_thumb/4faaa989782337309bbfb981da6fe42f.jpeg" alt="krishna" width="40" height="40" class="rounded-circle"/>          <span style="color:black;">krishna</span>
+        </a>
+        <div class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
+          <a href="/Dashboards" class="dropdown-item">Dashboard</a>          <a href="/Profiles/editProfile" class="dropdown-item">Edit Profile</a>          <a href="/Users/logout" class="dropdown-item">Signout</a>        </div>
+      </li>   
+    </ul>
+  </div>
+</nav>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="alert alert-success">
+<button type="button" class="close" data-dismiss="alert">x</button>
+<center>Thank you for logging in!</center>
+</div><style type="text/css">
+	.start-exma {
+    background: #4caf50;
+    color: #fff;
+    padding: 10px 12px 10px 12px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+.modal-body h2 {
+    margin-top: -35px;
+    color: #0d5687;
+}
+/* .table td{
+	width: 20%;
+} */
+
+.attempt-now{
+	border: none;
+    background: #064f7f;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 8px 4px 8px;
+}
+.attempt-now-end{
+  border: none;
+    background: red;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 8px 4px 8px;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+@media screen and (max-width:567px){
+  .div-attempt-now {
+    width: 130px;
+  }
+}
+@media screen and (min-width:600px) and (max-width:993px) {
+  .div-attempt-now {
+    width: 130px;
+  }
+}
+</style>
+  <div class="dashboard-page">
+     <div class="container">
+       <div class="row pb-4">
+         <div class="col-lg-8 col-md-7 mt-4">
+             <h2>Allocated Exams</h2>
+
+
+
+
+             					<div class="none-details">
+               			<p>These are the exam(s) that can be taken right now.</p>
+             		</div>
+					
+					<div class="none-details" style="padding: 0px 10px 0px 10px;">
+                          <div class="table-responsive">
+                                <table class="table w-100" style="margin-bottom: 0px;">
+                                    <tbody style="font-size: 14px;">
+                                        <tr>
+                                            <td width="40%">CDS-25 Data Science Foundation Module-2</td>
+                                            <td width="20%">50 Marks</td>
+                                            <td width="20%">22-01-2025</td>
+                                            <td>&nbsp;</td>									                                                                      <td width="20%">
+                                              <div class="div-attempt-now">
+                                              <a href="#" class="attempt-now-end">Completed</a>                                              </div>
+                                            </td>
+                                                                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+             </div>
+             
+					<div class="none-details" style="padding: 0px 10px 0px 10px;">
+                          <div class="table-responsive">
+                                <table class="table w-100" style="margin-bottom: 0px;">
+                                    <tbody style="font-size: 14px;">
+                                        <tr>
+                                            <td width="40%">CDS-25 Machine Learning Engineer Module-3</td>
+                                            <td width="20%">50 Marks</td>
+                                            <td width="20%">22-01-2025</td>
+                                            <td>&nbsp;</td>									                                                                      <td width="20%">
+                                              <div class="div-attempt-now">
+                                              <a href="#" class="attempt-now-end">Completed</a>                                              </div>
+                                            </td>
+                                                                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+             </div>
+             
+					<div class="none-details" style="padding: 0px 10px 0px 10px;">
+                          <div class="table-responsive">
+                                <table class="table w-100" style="margin-bottom: 0px;">
+                                    <tbody style="font-size: 14px;">
+                                        <tr>
+                                            <td width="40%">CDS-25 Python Developer Module-1</td>
+                                            <td width="20%">25 Marks</td>
+                                            <td width="20%">22-01-2025</td>
+                                            <td>&nbsp;</td>									                                                                      <td width="20%">
+                                              <div class="div-attempt-now">
+                                              <a href="#" class="attempt-now-end">Completed</a>                                              </div>
+                                            </td>
+                                                                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+             </div>
+             
+					<div class="none-details" style="padding: 0px 10px 0px 10px;">
+                          <div class="table-responsive">
+                                <table class="table w-100" style="margin-bottom: 0px;">
+                                    <tbody style="font-size: 14px;">
+                                        <tr>
+                                            <td width="40%">CDS-25  Advance Data Science Module 4</td>
+                                            <td width="20%">30 Marks</td>
+                                            <td width="20%">22-01-2025</td>
+                                            <td>&nbsp;</td>									                                                                      <td width="20%">
+                                              <div class="div-attempt-now">
+                                              <a href="#" onclick="show_modal(&#039;/Exams/instruction/242&#039;);" class="attempt-now">Attempt Now</a>                                              </div>
+                                            </td>
+                                                                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+             </div>
+                          <div class="forthcoming-exam">
+              <h2>Forthcoming Exams</h2>
+
+              					<div class="none-details">
+						<p>No Exams found for future.</p>
+					</div>
+					             </div>
+         </div>
+         <div class="col-lg-4 col-md-5 mt-4">
+            <div class="exam-status">
+              <!--   <div class="img-profile"> -->
+                	<img src="/img/student_thumb/4faaa989782337309bbfb981da6fe42f.jpeg" alt="krishna" class="img-profile"/>               <!--  </div> -->
+                <h4 class='mt-2'>krishna karthik</h4>
+                <h3 class="text-uppercase">My Exam Status</h3>
+                <hr>
+                <div class="total-exams">
+                   <p>Total Exams Appeared</p>
+                   <p>3</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 mt-2">
+                    <div class="pass">
+                      <p>PASS</p>
+                      <P>3 Exam</P>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 mt-2">
+                    <div class="fail">
+                      <p>FAIL</p>
+                      <P>0 Exam</P>
+                    </div>
+                  </div>
+                </div>
+                  <div class="total-exams">
+                    <p>Best Score In</p>
+                    <p>CDS-25 Data Science Foundation Module-2</p>
+                  </div>
+            </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="modal fade" id="targetModal" style="background-color: rgba(0, 0, 0, 0.4);opacity: 1;">
+</div>
+<script type="text/javascript">
+  $('#dashboard').addClass('active');
+</script>    <style>
+       .dropdown-item.active, .dropdown-item:active {
+            color: #fff !important;
+        }.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+           
+           color:#000;
+        }
+    </style>
+
+	    </div>
+
+	    </div>
+	    
+		<div class="sb-slidebar sb-right">
+<div class="sb-menu-trigger"></div>
+	</div>
+   </div>
+</body>
+</html>
